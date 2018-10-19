@@ -16,6 +16,5 @@ pipeline{
 	 		echo "Hello From Deploy Stage"
 	 			}
 	 	}
-	 	}
-	 }
+	}
 }
