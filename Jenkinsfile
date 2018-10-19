@@ -7,14 +7,14 @@ pipeline{
 	 				}
 	 			}
 	 	stage('Build'){
-	 		steps{}
+	 		steps{
 	 		echo "Hello From build stage"
 	 				}
 	 			}
 	 	stage('Deploy'){
-	 	step{
+	 	steps{
 	 		echo "Hello From Deploy Stage"
 	 			}
 	 	}
 	}
-}
+}	
